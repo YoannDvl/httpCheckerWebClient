@@ -1,0 +1,38 @@
+{
+  "name": "HTTPCheckerWebClient",
+  "version": "0.0.1",
+  "description": "Web interface for HttpChecker service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web monitoring"
+  ],
+  "author": "Yoann DUVAL <hello@yoann-duval.eu>",
+  "repository": "YoannDvl/httpCheckerWebClient",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.44",
+    "koa": "^1.0.0",
+    "koa-compose": "^2.3.0",
+    "koa-file-server": "https://github.com/YoannDvl/file-server/tarball/ed008e46743fcd80fcac526c2de118636ffb86a1",
+    "koa-force-ssl": "0.0.5",
+    "koa-router": "^5.2.3",
+    "line-reader": "^0.3.0",
+    "spdy": "^2.0.5",
+    "systemjs": "^0.19.4"
+  },
+  "engines": {
+    "node": ">= 4.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2",
+    "typescript": "^1.6.2"
+  }
+}

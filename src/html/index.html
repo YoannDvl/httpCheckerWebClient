@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--  <meta name="robots" content="noindex"> -->
+  <meta charset="utf-8">
+  <title>HTTPChecker: website links and resources checker</title>
+  <meta name="description" content="Free and Open source tool to help you find in a few seconds all broken link, internal and external, as well as all your unreachable images, styles, scripts, ...">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Open Graph -->
+  <meta property="og:url" content="https://httpchecker.website"> 
+  <meta property="og:title" content="HTTPChecker: website links and resources checker">
+  <meta property="og:site_name" content="website links checker"/>
+  <meta property="og:description" content="Find in a few seconds all broken link, internal and external, as well as all your unreachable images, styles, scripts, ...">
+  <meta property="og:image" content="https://httpchecker.website/img/hero.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="261">
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+<!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+
+<!--   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css"> -->
+  <link rel="stylesheet" href="/css/styles.min.css"> 
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+
+  <script src="/js/script.min.js" async></script>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <header>
+    <div class="container">
+	<div id="logo"><img src="/img/logo.png" width="133" height="14" alt="HTTPChecker logo"/></div>
+	<nav class="u-pull-right"><a href="/#features">features</a><a href="https://github.com/YoannDvl/httpChecker">github</a><a href="#">contact</a></nav>
+    </div>
+  </header>
+
+  <main class="hero" itemprop="mainContentOfPage">
+    <div class="container row">
+      <div class="hero-heading">
+        <h1>Check your Website Links</h1>
+        <p>Find in a few seconds all broken link, internal and external, as well as all your unreachable images, styles, scripts, ...</p>      
+      </div>
+    </div>
+    <div class="container hero-form">
+      <form name="checkForm" onsubmit="return submitCheck();">
+	<input name="url" type="url" placeholder="http://www.example.com" title="Url of your website" required/>
+	<button class="button-primary" type="submit">Check now!</button>
+      </form>
+    </div>
+  </main>
+  <section class="hero-feature">
+    <div class="container row">
+      <div class="column one-half"/>
+        <h2>Clean and insightful result page</h2>
+        <div>
+	  <h3>Status code of your pages</h3>
+	  <p></p>
+	</div>
+	<div>
+          <h3>Resources by page</h3>
+          <p>Resources metrics for each page: number of requests and weight by type, number of resources unreachable.</p>
+        </div>
+	<div>
+          <h3>Advanced filter</h3>
+          <p>Visualize only pages with errors.</p>
+        </div>
+
+      </div>
+      <div class="img-container column one-half"/>
+  	<img src="/img/hero.jpg" alt="http-checker dashboard with broken links and resources summary" class="u-max-full-width" itemprop="primaryImageOfPage">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section features">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h2>Find broken links</h2>
+          <p>Percentage of users more likely to purchase on mobile friendly site.</p>
+        </div>
+        <div class="one-half column">
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column">
+          <h2>Locate unreachable resources</h2>
+          <p>Most of the world accesses the internet on multiple devices.</p>
+        </div>
+	<div class="one-half column">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section features">
+    <div class="container">
+      <h2 class="section-heading">Want to be alerted on error ?</h2>
+      <p class="section-description">Let HttpChecker analyse your website every day! It will send you an email alert when broken link or unreachable resources are detected. Configure weekly or monthly recap with data that matters to you.</p>
+      <a class="button button-primary" href="#">Get Started</a>
+      <a class="button" href="#">Need More ?</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Made with <a href="http://koajs.com/">koa</a> and <a href="hrttp://getskeleton.com/">Skeleton</a> - from FRANCE.
+    </div>
+  </footer>
+
+  <!-- Woopra -->
+  <script>(function(){var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/t/5.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)})("woopra");woopra.config({domain: 'httpchecker.website'});woopra.track();
+  </script>
+</body>
+</html>
